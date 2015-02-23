@@ -13,18 +13,18 @@
   },
   "repository": {
     "type": "https",
-    "url": "https://github.com/henryleu/node-sequence.git"
+    "url": "https://github.com/henryleu/mysequence.git"
   },
   "bugs": {
-    "url": "https://github.com/caolan/async/issues"
+    "url": "https://github.com/henryleu/mysequence/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/henryleu/async/raw/master/LICENSE"
+      "url": "https://github.com/henryleu/mysequence/raw/master/LICENSE"
     }
   ],
-  "homepage": "https://github.com/henryleu/node-sequence",
+  "homepage": "https://github.com/henryleu/mysequence",
   "maintainers": [
     {
       "name": "henryleu",
