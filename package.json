@@ -1,15 +1,14 @@
 {
   "name": "node-sequence",
   "version": "1.0.0",
-  "description": "sequence generator",
+  "description": "A nodejs sequence generator which generate unique sequential number as user-assigned id for your record/document.",
   "repository": {
     "type": "https",
     "url": "https://github.com/henryleu/node-sequence.git"
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --timeout 10000 --ui bdd test/index.js"
   },
   "author": "henryleu@126.com",
   "license": "",
