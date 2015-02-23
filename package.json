@@ -25,6 +25,9 @@
     }
   ],
   "homepage": "https://github.com/henryleu/mysequence",
+  "keywords": ["generate", "generater", "sequence", "id", "key", "UUID", "GUID",
+               "fast", "independent", "unique", "proactive",
+               "database", "record", "document"],
   "maintainers": [
     {
       "name": "henryleu",
