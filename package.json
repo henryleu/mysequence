@@ -1,0 +1,23 @@
+{
+  "name": "node-sequence",
+  "version": "1.0.0",
+  "description": "sequence generator",
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/henryleu/node-sequence.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "henryleu@126.com",
+  "license": "",
+  "dependencies": {
+    "async": "~0.9.0"
+  },
+  "devDependencies": {
+    "redis": "~0.12.1",
+    "mocha": "~2.1.0"
+  }
+}
