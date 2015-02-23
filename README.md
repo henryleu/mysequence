@@ -8,5 +8,6 @@ There are four reasons to generate id/key for your record/document by applicatio
 - Unique: UUID and Hibernate cannot guarantee unique ids in cluster env.
 - Proactive: You know your new record id before you create it, so you can use it in frontend layer proactively.
 
-you can use it as an id generating service deploying in application code.
+You can use it as an id generating service deploying in application code.
+
 This sequence generator inspire from the design pattern of sequence in peaa (Patterns of Enterprise Application Architecture) by Martin Fowler, the famous OOP master.
