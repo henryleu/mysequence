@@ -1,13 +1,12 @@
-# node-sequence
+## node-sequence
 
 A nodejs sequence generator which generate unique sequential numbers as user-assigned ids for your records/documents.
 
-There are five reasons to use **mysequence** to generate sequences as ids/keys for your records/documents by application itself.
-- **Independent**: Data model and persistence layer are independent of Oracle sequence, mysql increment, and Mongodb ObjectId
-- **Fastest**: it is faster than Oracle sequence, mysql auto increment, UUID, and Hibernate hex table.
-- **Unique**: UUID and Hibernate cannot guarantee unique ids in cluster env.
+There are four reasons to use **mysequence** to generate sequences as ids/keys for your records/documents by application itself.
+- **Independent**: Our data model and persistence layer can be independent of any RDB & noSQL DB such as **MySQL** auto increment, **MongoDB** ObjectId, **Oracle** sequence, **MS SQL Server** identity, and so on. We can move our data to any store no matter what DB types or providers.
+- **Fastest**: It is the fastest id generator in all known solutions including DBMS proprietary features (like Oracle sequence, MySQL auto increment), UUID utilities, and O/R Mapping built-in features (Hibernate hilo, uuid.string and uuid.hex).
+- **Unique**: UUID utils and O/R Mapping libs CANNOT guarantee unique ids in **cluster env.**
 - **Proactive**: You know your new record id before you create it, so you can use it in frontend layer proactively.
-- **Reliable**: Persistently provide unique sequences as ids for your app in cluster deployment.
 
 You can deploy it as an id generating service in/with application code together.
 
@@ -15,7 +14,7 @@ This sequence generator inspired from the design pattern of sequence in peaa (Pa
 
 ## Installation
 
-**mysequence** need **redis** as store, by default, but you could also customize your own store.
+**mysequence** need **redis** as sequence store, by default, but you could also customize your own store.
 ```javascript
 npm install mysequence
 
@@ -77,3 +76,19 @@ npm install mysequence
         console.log(so.next().val); //get and output a another sequence number
     });
 ```
+
+## Performance
+
+Test in my macbook pro 13' (i5 8G), it take ***< one second*** to generate ***1,000,000*** unique numbers using 1000 segment width.
+
+License
+-------
+
+MIT License. A copy is included with the source.
+
+Contact
+-------
+
+* GitHub ([henryleu](http://github.com/henryleu))
+* QQ ([1347653](1347653))
+* Email ([henryleu@126.com](mailto:henryleu@126.com))
