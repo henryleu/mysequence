@@ -1,4 +1,4 @@
-## node-sequence
+## mysequence
 
 A nodejs sequence generator which generate unique sequential numbers as user-assigned ids for your records/documents.
 
