@@ -10,7 +10,7 @@ There are four reasons to use **mysequence** to generate sequences as ids/keys f
 
 You can deploy it as an id generating service in/with application code together.
 
-## Martin Fowler and peaa
+## Martin Fowler and book peaa
 This sequence generator inspired from the design pattern of ***key table*** in chapter [**Identity Field**](http://martinfowler.com/eaaCatalog/identityField.html) in peaa ([Patterns of Enterprise Application Architecture](http://www.amazon.com/exec/obidos/ASIN/0321127420/resourcesforsoft)) by Martin Fowler, the famous OOP master.
 
 Martin contributes his great works to the community, and I pay my respect to martin and contribute this OSS lib to the community.
